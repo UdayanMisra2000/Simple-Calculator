@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(59, 70, 100);
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+h2{
+    color: aliceblue;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.display>#display{
+    padding-right: 0.5rem;
+    width : 30vw;
+    height: 4.5rem;
+    background-color: rgb(24, 31, 50);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size:xx-large;
+    text-align: right;
+}
+.keypad{
+    display: grid;
+    padding: 1.5rem 1rem;
+    background-color: rgb(37, 45, 68);
+    grid-template-areas: "seven eight nine del"
+                         "four five six sum"
+                         "one two three diff"
+                         "dot zeroo div mul"
+                         "reset reset equals equals";
+    width: 30vw;
+    height: 60vh;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+.keypad button{
+    background-color: rgb(234, 219, 230);
+    border-radius: 10px;
+    font-size: large;
+}
+.keypad #one{
+    grid-area: one;
+}
+.keypad #two{
+    grid-area: two;
+}
+.keypad #three{
+    grid-area: three;
+}
+.keypad #four{
+    grid-area: four;
+}
+.keypad #five{
+    grid-area: five;
+}
+.keypad #six{
+    grid-area: six;
+}
+.keypad #seven{
+    grid-area: seven;
+}
+.keypad #eight{
+    grid-area: eight;
+}
+.keypad #nine{
+    grid-area: nine;
+}
+.keypad #zeroo{
+    grid-area: zeroo;
+}
+.keypad #mul{
+    grid-area: mul;
+}
+.keypad #sum{
+    grid-area: sum;
+}
+.keypad #diff{
+    grid-area: diff;
+}
+.keypad #div{
+    grid-area: div;
+}
+.keypad #del{
+    grid-area: del;
+    background-color: rgb(100, 114, 153);
+    color: aliceblue;
+}
+.keypad #reset{
+    grid-area: reset;
+    background-color: rgb(100, 114, 153);
+    color: aliceblue;
+}
+.keypad #equals{
+    grid-area: equals;
+    background-color: rgb(209, 63, 48);
+    color: aliceblue;
+}
+.keypad #dot{
+    grid-area: dot;
+}
