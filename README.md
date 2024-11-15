@@ -6,8 +6,8 @@ This project is a basic calculator application built with HTML, CSS, and JavaScr
 
 ## Key Features:
 
-i) Performs basic arithmetic operations: +, -, *, /.
-ii) Includes a Delete (Del) button to remove the last digit or operator.
-iii) Ensures proper input validation, allowing only valid operators at appropriate positions.
-iv) Responsive design for seamless usability on different devices.
+i) Performs basic arithmetic operations: +, -, *, /. </br>
+ii) Includes a Delete (Del) button to remove the last digit or operator.</br>
+iii) Ensures proper input validation, allowing only valid operators at appropriate positions.</br>
+iv) Responsive design for seamless usability on different devices.</br>
 v) Styled with modern CSS for a polished appearance.
