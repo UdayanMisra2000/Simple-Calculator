@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Project 2</title>
+    <link rel="stylesheet" href="./Micro Project 2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+        <div class="display">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="keypad">
+            <button id="seven" onclick="appendNumber('7')">7</button>
+            <button id="eight" onclick="appendNumber('8')">8</button>
+            <button id="nine" onclick="appendNumber('9')">9</button>
+            <button id="del" onclick="delLastItem()">Del</button>
+            
+            <button id="four" onclick="appendNumber('4')">4</button>
+            <button id="five" onclick="appendNumber('5')">5</button>
+            <button id="six" onclick="appendNumber('6')">6</button>
+            <button id="sum" onclick="appendOperator('+')">+</button>
+            
+            <button id="one" onclick="appendNumber('1')">1</button>
+            <button id="two" onclick="appendNumber('2')">2</button>
+            <button id="three" onclick="appendNumber('3')">3</button>
+            <button id="diff" onclick="appendOperator('-')">-</button>
+            
+            <button id="dot" onclick="appendOperator('.')">.</button>
+            <button id="zeroo" onclick="appendNumber('0')">0</button>
+            <button id="div" onclick="appendOperator('/')">/</button>
+            <button id="mul" onclick="appendOperator('*')">X</button>
+            
+            <button id="reset" onclick="clearDisplay()">Reset</button>
+            <button id="equals" onclick="getResult()">=</button>
+        </div>
+    </div>
+    <script src = './Micro Project 2.js'></script>
+</body>
+</html>
