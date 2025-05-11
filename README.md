@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+🔗 [Visit Deployed Site](https://udayanmisra2000.github.io/Simple-Calculator/)
+
 # Simple-Calculator
 ## Simple Calculator using HTML, CSS, and JavaScript  Description
 
